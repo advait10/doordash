@@ -5,6 +5,8 @@ import time
 import json
 import boto3
 
+
+print("hiiiiiiiiiiiiiiii")
 df = yf.download(tickers=['NHPC.NS'], period='1d', interval='1m')
 df.reset_index(inplace=True)
 df['Timestamp'] = pd.to_datetime(df['Datetime'])
