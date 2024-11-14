@@ -18,3 +18,5 @@ def upload_file():
     s3.upload_file(f,'doordash-target-zn-ad', 'NHPC.csv')
 
 upload_file()
+
+print("helooooooo")
